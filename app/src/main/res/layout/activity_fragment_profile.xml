@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <RelativeLayout android:id="@+id/edit_profile_relative_layout"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/edit_image_view"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/readaktor_profile"
+            android:layout_centerVertical="true" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="@string/readactor_profile"
+            android:layout_toRightOf="@+id/edit_image_view"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorBackground"
+            />
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/left_accessory"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <RelativeLayout android:id="@+id/edit_profile_history_zakazov"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/edit_image_view2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/history_zakazov"
+            android:layout_centerVertical="true" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/history_zakazov"
+            android:textColor="@color/colorBackground"
+            android:layout_centerVertical="true"
+            />
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/left_accessory"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <RelativeLayout android:id="@+id/edit_profile_contacts"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/edit_image_view3"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contakts"
+            android:layout_centerVertical="true" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/contakts"
+            android:textColor="@color/colorBackground"
+
+            android:layout_centerVertical="true"
+             />
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/left_accessory"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+</LinearLayout>

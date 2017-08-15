@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alash.beautybox.Fragments.Fragment_contacts">
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="fill_parent"
+     android:orientation="vertical">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="60dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="150dp"
+      android:textColor="@color/colorBackground"
+      android:text="Вы можете связатся с нами "
+      android:textSize="20sp"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="60dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="3dp"
+      android:textColor="@color/colorBackground"
+      android:text="по этому номеру"
+      android:textSize="20sp"/>
+  <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+      android:layout_marginLeft="60dp"
+     android:layout_marginRight="50dp"
+     android:layout_marginTop="5dp"
+     android:text="+7(707) 479 9810"
+      android:textColor="@color/color_search"
+     android:textSize="30sp"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="60dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="5dp"
+      android:text="или"
+      android:textSize="25sp"
+      android:textColor="@color/colorBackground"/>
+  <Button
+      android:id="@+id/btn_zakazat"
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:layout_gravity="center"
+      android:text="Заказать звонок"
+      android:layout_marginLeft="60dp"
+      android:layout_marginRight="50dp"
+
+      android:background="@color/colorPink"/>
+
+
+ </LinearLayout>
+
+</RelativeLayout>

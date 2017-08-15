@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BeautyBox</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_surname">Фамилия</string>
+    <string name="hint_spec">Специализация</string>
+    <string name="hint_email">Phone</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Войти</string>
+    <string name="text_register">Создать аккаунт</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_surname">Enter Full Surname</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_spec">Enter Valid Specialization</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">Создать Аккаунт</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Phone Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Phone or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <string name="main">Главная</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+    <string name="readactor_profile">Редактировать профиль</string>
+    <string name="history_zakazov">История заказов</string>
+    <string name="contakts">Контакты</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

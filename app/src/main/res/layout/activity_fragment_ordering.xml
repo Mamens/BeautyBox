@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment_ordering"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alash.beautybox.Fragments.BasketFragments.Fragment_ordering">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <EditText
+            android:id="@+id/fragment_ordering_name1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/avatar"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:hint="Имя"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorBackground" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout2"
+        android:layout_below="@+id/fragment_ordering_inputlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <EditText
+            android:id="@+id/fragment_ordering_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/contakts"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:hint="Телефон"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="@color/colorBackground"
+            android:layout_below="@+id/fragment_ordering_name"
+             />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout3"
+        android:layout_below="@+id/fragment_ordering_inputlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <EditText
+        android:id="@+id/fragment_ordering_city3"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/placeholder"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:hint="Город"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/colorBackground"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout4"
+        android:layout_below="@+id/fragment_ordering_inputlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/fragment_ordering_street4"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/placeholder"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:hint="Улица"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorBackground"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout5"
+        android:layout_below="@+id/fragment_ordering_inputlayout4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/fragment_ordering_flat5"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/placeholder"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:hint="Квартира"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorBackground"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout6"
+        android:layout_below="@+id/fragment_ordering_inputlayout5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/fragment_ordering_home6"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/placeholder"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:hint="Дом"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorBackground"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_ordering_inputlayout7"
+        android:layout_below="@+id/fragment_ordering_inputlayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <EditText
+        android:id="@+id/fragment_ordering_additionally7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/chat"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:hint="Дополнитеьно"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/colorBackground"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/button_ordering"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/fragment_ordering_inputlayout7"
+        android:layout_marginTop="25dp"
+        android:text="Подтвердить заказ"
+        android:textSize="18sp"
+        android:background="@color/colorPink"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:drawable="@drawable/rounded_button"/>
+
+
+
+
+</RelativeLayout>
